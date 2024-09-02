@@ -40,9 +40,6 @@
 
 <p align="left">• Currently studying Science accounting and Science economics at the Metropolitan Union University<br> • Studying data science and full stack python at EBAC <br>• Graduated in international history<br>• Only 21 years old but with a lot of study and good experience</p>
 
-###
-
-<img src="https://raw.githubusercontent.com/aresoldier/aresoldier/output/snake.svg" alt="Snake animation" />
 
 ###
 
