@@ -1,0 +1,106 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aresoldier/aresoldier/blob/main/Treino_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CFMFkLxsr0U3",
+        "outputId": "d233da10-5b16-4585-ccc3-1e87249670c9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá, seja bem vindo, comece a calcular\n",
+            "Escreva o valor da nota do aluno(a): 4.4\n",
+            "Escreva o valor da nota do aluno(a): 8.2\n",
+            "Escolha a operação matematica: \n",
+            "1 - Soma\n",
+            "2 - Subtração\n",
+            "3 - Multiplicação\n",
+            "4 - Divisão\n",
+            "Digite o numero que corresponde a operação necessaria: 4\n",
+            "0.5365853658536587\n",
+            "Escolha a operação matematica: \n",
+            "1 - Soma\n",
+            "2 - Subtração\n",
+            "3 - Multiplicação\n",
+            "4 - Divisão\n"
+          ]
+        }
+      ],
+      "source": [
+        "# saudações iniciais basicas para inicio do algoritimo\n",
+        "print (\"Olá, seja bem vindo, comece a calcular\")\n",
+        "nota1 = float(input(\"Escreva o valor da nota do aluno(a): \"))\n",
+        "nota2 = float(input(\"Escreva o valor da nota do aluno(a): \"))\n",
+        "while True: # Added a condition to the while loop\n",
+        "    print (\"Escolha a operação matematica: \")\n",
+        "    print (\"1 - Soma\")\n",
+        "    print (\"2 - Subtração\")\n",
+        "    print (\"3 - Multiplicação\")\n",
+        "    print (\"4 - Divisão\")\n",
+        "    operacao = input(\"Digite o numero que corresponde a operação necessaria: \")\n",
+        "    if operacao == \"1\":\n",
+        "       resuldo = nota1 + nota2\n",
+        "       print (resultado)\n",
+        "    elif operacao == \"2\":\n",
+        "        resultado = nota1 - nota2\n",
+        "        print (resultado)\n",
+        "    elif operacao ==  \"3\":\n",
+        "        resultado = nota1 * nota2\n",
+        "        print (resultado)\n",
+        "    elif operacao == \"4\":\n",
+        "        resultado = nota1 / nota2\n",
+        "        print (resultado)\n",
+        "    else:\n",
+        "        print (\"Operação não reconhecida\")\n",
+        "    continuar = input(\"Deseja continuar com mais operações? {Sim} ou {Não} \")\n",
+        "    if continuar == \"sim\" or continuar == \"Sim\":\n",
+        "      continue\n",
+        "    elif continuar == \"não\" or continuar == \"Não\":\n",
+        "       break\n",
+        "    else:\n",
+        "       print (\"Resposta não reconhecida\")\n",
+        "       break\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wkcRuMieXAgX"
+      },
+      "source": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNOSVLQ2Q2iraRX6RoshQhs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
